@@ -16,9 +16,8 @@
 // and night victims condemn their loudest accusers. Ties break on a seeded hash, never on time.
 //
 // Run by the grader as `node /bot/main.ts` with this directory at /bot; Node 22 standard
-// library only (node:fs, node:crypto, node:url).
+// library only (node:crypto, node:url).
 
-import { readFileSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { pathToFileURL } from 'node:url';
 
